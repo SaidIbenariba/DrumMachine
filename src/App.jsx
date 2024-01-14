@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { useEffect } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
 
 function App() {
@@ -98,4 +97,8 @@ function DrumDisplay(props) {
   });
 }
 
-export default App;
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
