@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import "./App.css";
-import { ReactDOM } from "react";
 
 export default function App() {
   const drumPads = [
