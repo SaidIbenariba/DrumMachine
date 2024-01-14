@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import "./App.css";
+import { ReactDOM } from "react";
 
-function App() {
+export default function App() {
   const drumPads = [
     {
       key: "Q",
@@ -96,9 +97,3 @@ function DrumDisplay(props) {
     );
   });
 }
-
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
